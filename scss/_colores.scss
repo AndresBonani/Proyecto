@@ -1,0 +1,41 @@
+$verde:rgb(79, 180, 96);
+$oscuro: rgb(56, 56, 56);
+$gris: rgb(160, 160, 160);
+
+.nav--color {
+    background-color:$verde;
+}
+
+.nav__link--color {
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.seccion--resaltada {
+    background-color:$verde;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.seccion--resaltada2 {
+    @extend .seccion--resaltada;
+    margin-top: 0px;
+    background-color:$gris;
+}
+
+.footer--resaltado {
+    background-color:$oscuro;
+    color:white;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.card--titulo {
+    color: rgb(0, 58, 0);
+    font-weight: 550;
+}

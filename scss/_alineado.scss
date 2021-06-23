@@ -1,0 +1,56 @@
+.nopad {
+    padding: 0px;
+    margin: 0px;
+}
+
+.espaciado {
+    margin-bottom: 40px;
+}
+
+
+.wide {
+    width: 100%;
+}
+
+.wide2 {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.centrado {
+    margin-top: 30px;
+    padding: 40px;
+    text-align: center;
+}
+
+.centrado2 {
+    @extend .centrado;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+.resize {
+    height: 100px;
+}
+
+.nav--padding {
+    padding: 10px;
+}
+
+.marginado {
+    margin: 0 10px;
+}
+
+.btn--padding {
+    padding: 15px;
+}
+
+.info--padding {
+    padding-left: 60px;
+}

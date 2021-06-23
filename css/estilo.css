@@ -1,0 +1,97 @@
+.nav--color {
+  background-color: #4fb460; }
+
+.nav__link--color {
+  color: black;
+  font-weight: 500;
+  font-size: 20px; }
+
+.seccion--resaltada, .seccion--resaltada2 {
+  background-color: #4fb460;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 40px;
+  text-align: center; }
+
+.seccion--resaltada2 {
+  margin-top: 0px;
+  background-color: #a0a0a0; }
+
+.footer--resaltado {
+  background-color: #383838;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  margin-top: 40px;
+  text-align: center; }
+
+.card--titulo {
+  color: #003a00;
+  font-weight: 550; }
+
+.nopad {
+  padding: 0px;
+  margin: 0px; }
+
+.espaciado {
+  margin-bottom: 40px; }
+
+.wide {
+  width: 100%; }
+
+.wide2 {
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 10px; }
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px; }
+
+.centrado, .centrado2 {
+  margin-top: 30px;
+  padding: 40px;
+  text-align: center; }
+
+.centrado2 {
+  margin-top: 0px;
+  padding-top: 20px; }
+
+.resize {
+  height: 100px; }
+
+.nav--padding {
+  padding: 10px; }
+
+.marginado {
+  margin: 0 10px; }
+
+.btn--padding {
+  padding: 15px; }
+
+.info--padding {
+  padding-left: 60px; }
+
+h1 {
+  font-size: 60px;
+  color: darkgreen; }
+
+h3 {
+  font-size: 40px; }
+
+.stick {
+  position: sticky;
+  top: 0px; }
+
+.imagenMediana {
+  width: 700px; }
+
+.form--estilos {
+  background-image: url(../assets/img/FORM.png);
+  color: snow;
+  text-shadow: 1px 1px 2px black;
+  border: none;
+  padding: 10px 0px; }
+
+p {
+  font-size: 18px; }
