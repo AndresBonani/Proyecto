@@ -1,5 +1,9 @@
+body{
+  overflow-x: hidden;
+}
+
 .nav--color {
-  background-color: #4fb460; }
+  background-color: #2e833d; }
 
 .nav__link--color {
   color: black;
@@ -29,6 +33,12 @@
   color: #003a00;
   font-weight: 550; }
 
+.footer--info {
+  color: #4fb460; }
+
+.oscurecer:hover {
+  opacity: 0.7; }
+
 .nopad {
   padding: 0px;
   margin: 0px; }
@@ -37,7 +47,8 @@
   margin-bottom: 40px; }
 
 .wide {
-  width: 100%; }
+  width: 100%;
+  margin-top: 40px; }
 
 .wide2 {
   width: 100%;
@@ -73,7 +84,7 @@
   padding-left: 60px; }
 
 h1 {
-  font-size: 60px;
+  font-size: 6vw;
   color: darkgreen; }
 
 h3 {
@@ -96,5 +107,20 @@ h3 {
 p {
   font-size: 18px; }
 
-.oscurecer:hover {
-  opacity: 0.7; }
+.icon--padding {
+  padding: 0px 10px;
+}
+
+.img--hover:hover {
+  transform: scale(1.2);
+  transition: 0.8s; }
+
+.texto--destacado {
+  font-size: 25px;
+  color: #003a00;
+  font-weight: 550;
+  font-style: italic; }
+
+.icon--hover:hover {
+  opacity: 0.5;
+  transition: 0.3s; }
